@@ -992,7 +992,7 @@ AnnotationAssertion(rdfs:label obo:IAO_0000115 "definition")
 AnnotationAssertion(obo:IAO_0000115 obo:IAO_0000118 "A label for a class or property that can be used to refer to the class or property instead of the preferred rdfs:label. Alternative labels should be used to indicate community- or context-specific labels, abbreviations, shorthand forms and the like."@en)
 AnnotationAssertion(rdfs:label obo:IAO_0000118 "alternative label"@en)
 
-# Annotation Property: obo:IAO_0000232 (curator notes)
+# Annotation Property: obo:IAO_0000232 (curator note)
 
 AnnotationAssertion(rdfs:label obo:IAO_0000232 "curator note")
 
@@ -4061,11 +4061,11 @@ SubClassOf(Annotation(x_1.1:contributor "gmontanaro https://orcid.org/0000-0003-
 SubClassOf(Annotation(x_1.1:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboI:creation_date "2023-05-30") obo:AISM_0000397 ObjectSomeValuesFrom(obo:BFO_0000051 obo:AISM_0000395))
 SubClassOf(Annotation(x_1.1:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboI:creation_date "2023-05-30") obo:AISM_0000397 ObjectSomeValuesFrom(obo:BFO_0000051 obo:AISM_0000396))
 
-# Class: obo:AISM_0000405 (antero-distal margin)
+# Class: obo:AISM_0000405 (DEPRECATED antero-distal margin)
 
-AnnotationAssertion(Annotation(x_1.1:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboI:creation_date "2023-11-17") obo:IAO_0000115 obo:AISM_0000405 "The anatomical margin that overlaps with the distal side and the anterior side."@en)
-AnnotationAssertion(Annotation(x_1.1:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboI:creation_date "2023-11-17") rdfs:label obo:AISM_0000405 "antero-distal margin"@en)
-SubClassOf(Annotation(x_1.1:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboI:creation_date "2023-11-17") obo:AISM_0000405 ObjectIntersectionOf(obo:BSPO_0000006 ObjectSomeValuesFrom(obo:RO_0002131 obo:BSPO_0000055) ObjectSomeValuesFrom(obo:RO_0002131 obo:BSPO_0000062)))
+AnnotationAssertion(rdfs:comment obo:AISM_0000405 "This term will be a part of new BSPO release:  antero-distal margin")
+AnnotationAssertion(Annotation(x_1.1:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboI:creation_date "2023-11-17") rdfs:label obo:AISM_0000405 "DEPRECATED antero-distal margin"@en)
+AnnotationAssertion(owl:deprecated obo:AISM_0000405 "true"^^xsd:boolean)
 
 # Class: obo:AISM_0000406 (postero-distal margin)
 
