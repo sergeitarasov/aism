@@ -8,9 +8,10 @@
 
 <http://purl.obolibrary.org/obo/aism/new-flagellomeres.owl>
     a owl:Ontology ;
+    owl:imports <http://purl.obolibrary.org/obo/aism.owl> ;
     rdfs:label "New AISM flagellomeres 11-100" .
 ### flagellomere 11
-obo:AISM_0000502 a owl:Class ;
+obo:AISM_0000539 a owl:Class ;
     rdfs:label "flagellomere 11"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -25,7 +26,7 @@ obo:AISM_0000502 a owl:Class ;
           owl:someValuesFrom obo:AISM_0000342 ] .
 
 ### flagellomere 12
-obo:AISM_0000503 a owl:Class ;
+obo:AISM_0000540 a owl:Class ;
     rdfs:label "flagellomere 12"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -34,13 +35,13 @@ obo:AISM_0000503 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000502 ] ,
+          owl:someValuesFrom obo:AISM_0000539 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000502 ] .
+          owl:someValuesFrom obo:AISM_0000539 ] .
 
 ### flagellomere 13
-obo:AISM_0000504 a owl:Class ;
+obo:AISM_0000541 a owl:Class ;
     rdfs:label "flagellomere 13"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -49,13 +50,13 @@ obo:AISM_0000504 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000503 ] ,
+          owl:someValuesFrom obo:AISM_0000540 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000503 ] .
+          owl:someValuesFrom obo:AISM_0000540 ] .
 
 ### flagellomere 14
-obo:AISM_0000505 a owl:Class ;
+obo:AISM_0000542 a owl:Class ;
     rdfs:label "flagellomere 14"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -64,13 +65,13 @@ obo:AISM_0000505 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000504 ] ,
+          owl:someValuesFrom obo:AISM_0000541 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000504 ] .
+          owl:someValuesFrom obo:AISM_0000541 ] .
 
 ### flagellomere 15
-obo:AISM_0000506 a owl:Class ;
+obo:AISM_0000543 a owl:Class ;
     rdfs:label "flagellomere 15"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -79,13 +80,13 @@ obo:AISM_0000506 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000505 ] ,
+          owl:someValuesFrom obo:AISM_0000542 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000505 ] .
+          owl:someValuesFrom obo:AISM_0000542 ] .
 
 ### flagellomere 16
-obo:AISM_0000507 a owl:Class ;
+obo:AISM_0000544 a owl:Class ;
     rdfs:label "flagellomere 16"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -94,13 +95,13 @@ obo:AISM_0000507 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000506 ] ,
+          owl:someValuesFrom obo:AISM_0000543 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000506 ] .
+          owl:someValuesFrom obo:AISM_0000543 ] .
 
 ### flagellomere 17
-obo:AISM_0000508 a owl:Class ;
+obo:AISM_0000545 a owl:Class ;
     rdfs:label "flagellomere 17"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -109,13 +110,13 @@ obo:AISM_0000508 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000507 ] ,
+          owl:someValuesFrom obo:AISM_0000544 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000507 ] .
+          owl:someValuesFrom obo:AISM_0000544 ] .
 
 ### flagellomere 18
-obo:AISM_0000509 a owl:Class ;
+obo:AISM_0000546 a owl:Class ;
     rdfs:label "flagellomere 18"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -124,13 +125,13 @@ obo:AISM_0000509 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000508 ] ,
+          owl:someValuesFrom obo:AISM_0000545 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000508 ] .
+          owl:someValuesFrom obo:AISM_0000545 ] .
 
 ### flagellomere 19
-obo:AISM_0000510 a owl:Class ;
+obo:AISM_0000547 a owl:Class ;
     rdfs:label "flagellomere 19"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -139,13 +140,13 @@ obo:AISM_0000510 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000509 ] ,
+          owl:someValuesFrom obo:AISM_0000546 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000509 ] .
+          owl:someValuesFrom obo:AISM_0000546 ] .
 
 ### flagellomere 20
-obo:AISM_0000511 a owl:Class ;
+obo:AISM_0000548 a owl:Class ;
     rdfs:label "flagellomere 20"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -154,13 +155,13 @@ obo:AISM_0000511 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000510 ] ,
+          owl:someValuesFrom obo:AISM_0000547 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000510 ] .
+          owl:someValuesFrom obo:AISM_0000547 ] .
 
 ### flagellomere 21
-obo:AISM_0000512 a owl:Class ;
+obo:AISM_0000549 a owl:Class ;
     rdfs:label "flagellomere 21"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -169,13 +170,13 @@ obo:AISM_0000512 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000511 ] ,
+          owl:someValuesFrom obo:AISM_0000548 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000511 ] .
+          owl:someValuesFrom obo:AISM_0000548 ] .
 
 ### flagellomere 22
-obo:AISM_0000513 a owl:Class ;
+obo:AISM_0000550 a owl:Class ;
     rdfs:label "flagellomere 22"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -184,13 +185,13 @@ obo:AISM_0000513 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000512 ] ,
+          owl:someValuesFrom obo:AISM_0000549 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000512 ] .
+          owl:someValuesFrom obo:AISM_0000549 ] .
 
 ### flagellomere 23
-obo:AISM_0000514 a owl:Class ;
+obo:AISM_0000551 a owl:Class ;
     rdfs:label "flagellomere 23"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -199,13 +200,13 @@ obo:AISM_0000514 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000513 ] ,
+          owl:someValuesFrom obo:AISM_0000550 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000513 ] .
+          owl:someValuesFrom obo:AISM_0000550 ] .
 
 ### flagellomere 24
-obo:AISM_0000515 a owl:Class ;
+obo:AISM_0000552 a owl:Class ;
     rdfs:label "flagellomere 24"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -214,13 +215,13 @@ obo:AISM_0000515 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000514 ] ,
+          owl:someValuesFrom obo:AISM_0000551 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000514 ] .
+          owl:someValuesFrom obo:AISM_0000551 ] .
 
 ### flagellomere 25
-obo:AISM_0000516 a owl:Class ;
+obo:AISM_0000553 a owl:Class ;
     rdfs:label "flagellomere 25"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -229,13 +230,13 @@ obo:AISM_0000516 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000515 ] ,
+          owl:someValuesFrom obo:AISM_0000552 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000515 ] .
+          owl:someValuesFrom obo:AISM_0000552 ] .
 
 ### flagellomere 26
-obo:AISM_0000517 a owl:Class ;
+obo:AISM_0000554 a owl:Class ;
     rdfs:label "flagellomere 26"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -244,13 +245,13 @@ obo:AISM_0000517 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000516 ] ,
+          owl:someValuesFrom obo:AISM_0000553 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000516 ] .
+          owl:someValuesFrom obo:AISM_0000553 ] .
 
 ### flagellomere 27
-obo:AISM_0000518 a owl:Class ;
+obo:AISM_0000555 a owl:Class ;
     rdfs:label "flagellomere 27"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -259,13 +260,13 @@ obo:AISM_0000518 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000517 ] ,
+          owl:someValuesFrom obo:AISM_0000554 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000517 ] .
+          owl:someValuesFrom obo:AISM_0000554 ] .
 
 ### flagellomere 28
-obo:AISM_0000519 a owl:Class ;
+obo:AISM_0000556 a owl:Class ;
     rdfs:label "flagellomere 28"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -274,13 +275,13 @@ obo:AISM_0000519 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000518 ] ,
+          owl:someValuesFrom obo:AISM_0000555 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000518 ] .
+          owl:someValuesFrom obo:AISM_0000555 ] .
 
 ### flagellomere 29
-obo:AISM_0000520 a owl:Class ;
+obo:AISM_0000557 a owl:Class ;
     rdfs:label "flagellomere 29"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -289,13 +290,13 @@ obo:AISM_0000520 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000519 ] ,
+          owl:someValuesFrom obo:AISM_0000556 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000519 ] .
+          owl:someValuesFrom obo:AISM_0000556 ] .
 
 ### flagellomere 30
-obo:AISM_0000521 a owl:Class ;
+obo:AISM_0000558 a owl:Class ;
     rdfs:label "flagellomere 30"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -304,13 +305,13 @@ obo:AISM_0000521 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000520 ] ,
+          owl:someValuesFrom obo:AISM_0000557 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000520 ] .
+          owl:someValuesFrom obo:AISM_0000557 ] .
 
 ### flagellomere 31
-obo:AISM_0000522 a owl:Class ;
+obo:AISM_0000559 a owl:Class ;
     rdfs:label "flagellomere 31"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -319,13 +320,13 @@ obo:AISM_0000522 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000521 ] ,
+          owl:someValuesFrom obo:AISM_0000558 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000521 ] .
+          owl:someValuesFrom obo:AISM_0000558 ] .
 
 ### flagellomere 32
-obo:AISM_0000523 a owl:Class ;
+obo:AISM_0000560 a owl:Class ;
     rdfs:label "flagellomere 32"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -334,13 +335,13 @@ obo:AISM_0000523 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000522 ] ,
+          owl:someValuesFrom obo:AISM_0000559 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000522 ] .
+          owl:someValuesFrom obo:AISM_0000559 ] .
 
 ### flagellomere 33
-obo:AISM_0000524 a owl:Class ;
+obo:AISM_0000561 a owl:Class ;
     rdfs:label "flagellomere 33"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -349,13 +350,13 @@ obo:AISM_0000524 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000523 ] ,
+          owl:someValuesFrom obo:AISM_0000560 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000523 ] .
+          owl:someValuesFrom obo:AISM_0000560 ] .
 
 ### flagellomere 34
-obo:AISM_0000525 a owl:Class ;
+obo:AISM_0000562 a owl:Class ;
     rdfs:label "flagellomere 34"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -364,13 +365,13 @@ obo:AISM_0000525 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000524 ] ,
+          owl:someValuesFrom obo:AISM_0000561 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000524 ] .
+          owl:someValuesFrom obo:AISM_0000561 ] .
 
 ### flagellomere 35
-obo:AISM_0000526 a owl:Class ;
+obo:AISM_0000563 a owl:Class ;
     rdfs:label "flagellomere 35"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -379,13 +380,13 @@ obo:AISM_0000526 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000525 ] ,
+          owl:someValuesFrom obo:AISM_0000562 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000525 ] .
+          owl:someValuesFrom obo:AISM_0000562 ] .
 
 ### flagellomere 36
-obo:AISM_0000527 a owl:Class ;
+obo:AISM_0000564 a owl:Class ;
     rdfs:label "flagellomere 36"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -394,13 +395,13 @@ obo:AISM_0000527 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000526 ] ,
+          owl:someValuesFrom obo:AISM_0000563 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000526 ] .
+          owl:someValuesFrom obo:AISM_0000563 ] .
 
 ### flagellomere 37
-obo:AISM_0000528 a owl:Class ;
+obo:AISM_0000565 a owl:Class ;
     rdfs:label "flagellomere 37"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -409,13 +410,13 @@ obo:AISM_0000528 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000527 ] ,
+          owl:someValuesFrom obo:AISM_0000564 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000527 ] .
+          owl:someValuesFrom obo:AISM_0000564 ] .
 
 ### flagellomere 38
-obo:AISM_0000529 a owl:Class ;
+obo:AISM_0000566 a owl:Class ;
     rdfs:label "flagellomere 38"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -424,13 +425,13 @@ obo:AISM_0000529 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000528 ] ,
+          owl:someValuesFrom obo:AISM_0000565 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000528 ] .
+          owl:someValuesFrom obo:AISM_0000565 ] .
 
 ### flagellomere 39
-obo:AISM_0000530 a owl:Class ;
+obo:AISM_0000567 a owl:Class ;
     rdfs:label "flagellomere 39"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -439,13 +440,13 @@ obo:AISM_0000530 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000529 ] ,
+          owl:someValuesFrom obo:AISM_0000566 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000529 ] .
+          owl:someValuesFrom obo:AISM_0000566 ] .
 
 ### flagellomere 40
-obo:AISM_0000531 a owl:Class ;
+obo:AISM_0000568 a owl:Class ;
     rdfs:label "flagellomere 40"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -454,13 +455,13 @@ obo:AISM_0000531 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000530 ] ,
+          owl:someValuesFrom obo:AISM_0000567 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000530 ] .
+          owl:someValuesFrom obo:AISM_0000567 ] .
 
 ### flagellomere 41
-obo:AISM_0000532 a owl:Class ;
+obo:AISM_0000569 a owl:Class ;
     rdfs:label "flagellomere 41"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -469,13 +470,13 @@ obo:AISM_0000532 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000531 ] ,
+          owl:someValuesFrom obo:AISM_0000568 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000531 ] .
+          owl:someValuesFrom obo:AISM_0000568 ] .
 
 ### flagellomere 42
-obo:AISM_0000533 a owl:Class ;
+obo:AISM_0000570 a owl:Class ;
     rdfs:label "flagellomere 42"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -484,13 +485,13 @@ obo:AISM_0000533 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000532 ] ,
+          owl:someValuesFrom obo:AISM_0000569 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000532 ] .
+          owl:someValuesFrom obo:AISM_0000569 ] .
 
 ### flagellomere 43
-obo:AISM_0000534 a owl:Class ;
+obo:AISM_0000571 a owl:Class ;
     rdfs:label "flagellomere 43"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -499,13 +500,13 @@ obo:AISM_0000534 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000533 ] ,
+          owl:someValuesFrom obo:AISM_0000570 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000533 ] .
+          owl:someValuesFrom obo:AISM_0000570 ] .
 
 ### flagellomere 44
-obo:AISM_0000535 a owl:Class ;
+obo:AISM_0000572 a owl:Class ;
     rdfs:label "flagellomere 44"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -514,13 +515,13 @@ obo:AISM_0000535 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000534 ] ,
+          owl:someValuesFrom obo:AISM_0000571 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000534 ] .
+          owl:someValuesFrom obo:AISM_0000571 ] .
 
 ### flagellomere 45
-obo:AISM_0000536 a owl:Class ;
+obo:AISM_0000573 a owl:Class ;
     rdfs:label "flagellomere 45"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -529,13 +530,13 @@ obo:AISM_0000536 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000535 ] ,
+          owl:someValuesFrom obo:AISM_0000572 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000535 ] .
+          owl:someValuesFrom obo:AISM_0000572 ] .
 
 ### flagellomere 46
-obo:AISM_0000537 a owl:Class ;
+obo:AISM_0000574 a owl:Class ;
     rdfs:label "flagellomere 46"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -544,13 +545,13 @@ obo:AISM_0000537 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000536 ] ,
+          owl:someValuesFrom obo:AISM_0000573 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000536 ] .
+          owl:someValuesFrom obo:AISM_0000573 ] .
 
 ### flagellomere 47
-obo:AISM_0000538 a owl:Class ;
+obo:AISM_0000575 a owl:Class ;
     rdfs:label "flagellomere 47"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -559,13 +560,13 @@ obo:AISM_0000538 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000537 ] ,
+          owl:someValuesFrom obo:AISM_0000574 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000537 ] .
+          owl:someValuesFrom obo:AISM_0000574 ] .
 
 ### flagellomere 48
-obo:AISM_0000539 a owl:Class ;
+obo:AISM_0000576 a owl:Class ;
     rdfs:label "flagellomere 48"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -574,13 +575,13 @@ obo:AISM_0000539 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000538 ] ,
+          owl:someValuesFrom obo:AISM_0000575 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000538 ] .
+          owl:someValuesFrom obo:AISM_0000575 ] .
 
 ### flagellomere 49
-obo:AISM_0000540 a owl:Class ;
+obo:AISM_0000577 a owl:Class ;
     rdfs:label "flagellomere 49"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -589,13 +590,13 @@ obo:AISM_0000540 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000539 ] ,
+          owl:someValuesFrom obo:AISM_0000576 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000539 ] .
+          owl:someValuesFrom obo:AISM_0000576 ] .
 
 ### flagellomere 50
-obo:AISM_0000541 a owl:Class ;
+obo:AISM_0000578 a owl:Class ;
     rdfs:label "flagellomere 50"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -604,13 +605,13 @@ obo:AISM_0000541 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000540 ] ,
+          owl:someValuesFrom obo:AISM_0000577 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000540 ] .
+          owl:someValuesFrom obo:AISM_0000577 ] .
 
 ### flagellomere 51
-obo:AISM_0000542 a owl:Class ;
+obo:AISM_0000579 a owl:Class ;
     rdfs:label "flagellomere 51"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -619,13 +620,13 @@ obo:AISM_0000542 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000541 ] ,
+          owl:someValuesFrom obo:AISM_0000578 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000541 ] .
+          owl:someValuesFrom obo:AISM_0000578 ] .
 
 ### flagellomere 52
-obo:AISM_0000543 a owl:Class ;
+obo:AISM_0000580 a owl:Class ;
     rdfs:label "flagellomere 52"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -634,13 +635,13 @@ obo:AISM_0000543 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000542 ] ,
+          owl:someValuesFrom obo:AISM_0000579 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000542 ] .
+          owl:someValuesFrom obo:AISM_0000579 ] .
 
 ### flagellomere 53
-obo:AISM_0000544 a owl:Class ;
+obo:AISM_0000581 a owl:Class ;
     rdfs:label "flagellomere 53"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -649,13 +650,13 @@ obo:AISM_0000544 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000543 ] ,
+          owl:someValuesFrom obo:AISM_0000580 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000543 ] .
+          owl:someValuesFrom obo:AISM_0000580 ] .
 
 ### flagellomere 54
-obo:AISM_0000545 a owl:Class ;
+obo:AISM_0000582 a owl:Class ;
     rdfs:label "flagellomere 54"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -664,13 +665,13 @@ obo:AISM_0000545 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000544 ] ,
+          owl:someValuesFrom obo:AISM_0000581 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000544 ] .
+          owl:someValuesFrom obo:AISM_0000581 ] .
 
 ### flagellomere 55
-obo:AISM_0000546 a owl:Class ;
+obo:AISM_0000583 a owl:Class ;
     rdfs:label "flagellomere 55"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -679,13 +680,13 @@ obo:AISM_0000546 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000545 ] ,
+          owl:someValuesFrom obo:AISM_0000582 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000545 ] .
+          owl:someValuesFrom obo:AISM_0000582 ] .
 
 ### flagellomere 56
-obo:AISM_0000547 a owl:Class ;
+obo:AISM_0000584 a owl:Class ;
     rdfs:label "flagellomere 56"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -694,13 +695,13 @@ obo:AISM_0000547 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000546 ] ,
+          owl:someValuesFrom obo:AISM_0000583 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000546 ] .
+          owl:someValuesFrom obo:AISM_0000583 ] .
 
 ### flagellomere 57
-obo:AISM_0000548 a owl:Class ;
+obo:AISM_0000585 a owl:Class ;
     rdfs:label "flagellomere 57"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -709,13 +710,13 @@ obo:AISM_0000548 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000547 ] ,
+          owl:someValuesFrom obo:AISM_0000584 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000547 ] .
+          owl:someValuesFrom obo:AISM_0000584 ] .
 
 ### flagellomere 58
-obo:AISM_0000549 a owl:Class ;
+obo:AISM_0000586 a owl:Class ;
     rdfs:label "flagellomere 58"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -724,13 +725,13 @@ obo:AISM_0000549 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000548 ] ,
+          owl:someValuesFrom obo:AISM_0000585 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000548 ] .
+          owl:someValuesFrom obo:AISM_0000585 ] .
 
 ### flagellomere 59
-obo:AISM_0000550 a owl:Class ;
+obo:AISM_0000587 a owl:Class ;
     rdfs:label "flagellomere 59"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -739,13 +740,13 @@ obo:AISM_0000550 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000549 ] ,
+          owl:someValuesFrom obo:AISM_0000586 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000549 ] .
+          owl:someValuesFrom obo:AISM_0000586 ] .
 
 ### flagellomere 60
-obo:AISM_0000551 a owl:Class ;
+obo:AISM_0000588 a owl:Class ;
     rdfs:label "flagellomere 60"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -754,13 +755,13 @@ obo:AISM_0000551 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000550 ] ,
+          owl:someValuesFrom obo:AISM_0000587 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000550 ] .
+          owl:someValuesFrom obo:AISM_0000587 ] .
 
 ### flagellomere 61
-obo:AISM_0000552 a owl:Class ;
+obo:AISM_0000589 a owl:Class ;
     rdfs:label "flagellomere 61"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -769,13 +770,13 @@ obo:AISM_0000552 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000551 ] ,
+          owl:someValuesFrom obo:AISM_0000588 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000551 ] .
+          owl:someValuesFrom obo:AISM_0000588 ] .
 
 ### flagellomere 62
-obo:AISM_0000553 a owl:Class ;
+obo:AISM_0000590 a owl:Class ;
     rdfs:label "flagellomere 62"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -784,13 +785,13 @@ obo:AISM_0000553 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000552 ] ,
+          owl:someValuesFrom obo:AISM_0000589 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000552 ] .
+          owl:someValuesFrom obo:AISM_0000589 ] .
 
 ### flagellomere 63
-obo:AISM_0000554 a owl:Class ;
+obo:AISM_0000591 a owl:Class ;
     rdfs:label "flagellomere 63"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -799,13 +800,13 @@ obo:AISM_0000554 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000553 ] ,
+          owl:someValuesFrom obo:AISM_0000590 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000553 ] .
+          owl:someValuesFrom obo:AISM_0000590 ] .
 
 ### flagellomere 64
-obo:AISM_0000555 a owl:Class ;
+obo:AISM_0000592 a owl:Class ;
     rdfs:label "flagellomere 64"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -814,13 +815,13 @@ obo:AISM_0000555 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000554 ] ,
+          owl:someValuesFrom obo:AISM_0000591 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000554 ] .
+          owl:someValuesFrom obo:AISM_0000591 ] .
 
 ### flagellomere 65
-obo:AISM_0000556 a owl:Class ;
+obo:AISM_0000593 a owl:Class ;
     rdfs:label "flagellomere 65"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -829,13 +830,13 @@ obo:AISM_0000556 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000555 ] ,
+          owl:someValuesFrom obo:AISM_0000592 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000555 ] .
+          owl:someValuesFrom obo:AISM_0000592 ] .
 
 ### flagellomere 66
-obo:AISM_0000557 a owl:Class ;
+obo:AISM_0000594 a owl:Class ;
     rdfs:label "flagellomere 66"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -844,13 +845,13 @@ obo:AISM_0000557 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000556 ] ,
+          owl:someValuesFrom obo:AISM_0000593 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000556 ] .
+          owl:someValuesFrom obo:AISM_0000593 ] .
 
 ### flagellomere 67
-obo:AISM_0000558 a owl:Class ;
+obo:AISM_0000595 a owl:Class ;
     rdfs:label "flagellomere 67"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -859,13 +860,13 @@ obo:AISM_0000558 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000557 ] ,
+          owl:someValuesFrom obo:AISM_0000594 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000557 ] .
+          owl:someValuesFrom obo:AISM_0000594 ] .
 
 ### flagellomere 68
-obo:AISM_0000559 a owl:Class ;
+obo:AISM_0000596 a owl:Class ;
     rdfs:label "flagellomere 68"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -874,13 +875,13 @@ obo:AISM_0000559 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000558 ] ,
+          owl:someValuesFrom obo:AISM_0000595 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000558 ] .
+          owl:someValuesFrom obo:AISM_0000595 ] .
 
 ### flagellomere 69
-obo:AISM_0000560 a owl:Class ;
+obo:AISM_0000597 a owl:Class ;
     rdfs:label "flagellomere 69"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -889,13 +890,13 @@ obo:AISM_0000560 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000559 ] ,
+          owl:someValuesFrom obo:AISM_0000596 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000559 ] .
+          owl:someValuesFrom obo:AISM_0000596 ] .
 
 ### flagellomere 70
-obo:AISM_0000561 a owl:Class ;
+obo:AISM_0000598 a owl:Class ;
     rdfs:label "flagellomere 70"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -904,13 +905,13 @@ obo:AISM_0000561 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000560 ] ,
+          owl:someValuesFrom obo:AISM_0000597 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000560 ] .
+          owl:someValuesFrom obo:AISM_0000597 ] .
 
 ### flagellomere 71
-obo:AISM_0000562 a owl:Class ;
+obo:AISM_0000599 a owl:Class ;
     rdfs:label "flagellomere 71"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -919,13 +920,13 @@ obo:AISM_0000562 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000561 ] ,
+          owl:someValuesFrom obo:AISM_0000598 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000561 ] .
+          owl:someValuesFrom obo:AISM_0000598 ] .
 
 ### flagellomere 72
-obo:AISM_0000563 a owl:Class ;
+obo:AISM_0000600 a owl:Class ;
     rdfs:label "flagellomere 72"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -934,13 +935,13 @@ obo:AISM_0000563 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000562 ] ,
+          owl:someValuesFrom obo:AISM_0000599 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000562 ] .
+          owl:someValuesFrom obo:AISM_0000599 ] .
 
 ### flagellomere 73
-obo:AISM_0000564 a owl:Class ;
+obo:AISM_0000601 a owl:Class ;
     rdfs:label "flagellomere 73"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -949,13 +950,13 @@ obo:AISM_0000564 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000563 ] ,
+          owl:someValuesFrom obo:AISM_0000600 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000563 ] .
+          owl:someValuesFrom obo:AISM_0000600 ] .
 
 ### flagellomere 74
-obo:AISM_0000565 a owl:Class ;
+obo:AISM_0000602 a owl:Class ;
     rdfs:label "flagellomere 74"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -964,13 +965,13 @@ obo:AISM_0000565 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000564 ] ,
+          owl:someValuesFrom obo:AISM_0000601 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000564 ] .
+          owl:someValuesFrom obo:AISM_0000601 ] .
 
 ### flagellomere 75
-obo:AISM_0000566 a owl:Class ;
+obo:AISM_0000603 a owl:Class ;
     rdfs:label "flagellomere 75"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -979,13 +980,13 @@ obo:AISM_0000566 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000565 ] ,
+          owl:someValuesFrom obo:AISM_0000602 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000565 ] .
+          owl:someValuesFrom obo:AISM_0000602 ] .
 
 ### flagellomere 76
-obo:AISM_0000567 a owl:Class ;
+obo:AISM_0000604 a owl:Class ;
     rdfs:label "flagellomere 76"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -994,13 +995,13 @@ obo:AISM_0000567 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000566 ] ,
+          owl:someValuesFrom obo:AISM_0000603 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000566 ] .
+          owl:someValuesFrom obo:AISM_0000603 ] .
 
 ### flagellomere 77
-obo:AISM_0000568 a owl:Class ;
+obo:AISM_0000605 a owl:Class ;
     rdfs:label "flagellomere 77"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1009,13 +1010,13 @@ obo:AISM_0000568 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000567 ] ,
+          owl:someValuesFrom obo:AISM_0000604 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000567 ] .
+          owl:someValuesFrom obo:AISM_0000604 ] .
 
 ### flagellomere 78
-obo:AISM_0000569 a owl:Class ;
+obo:AISM_0000606 a owl:Class ;
     rdfs:label "flagellomere 78"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1024,13 +1025,13 @@ obo:AISM_0000569 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000568 ] ,
+          owl:someValuesFrom obo:AISM_0000605 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000568 ] .
+          owl:someValuesFrom obo:AISM_0000605 ] .
 
 ### flagellomere 79
-obo:AISM_0000570 a owl:Class ;
+obo:AISM_0000607 a owl:Class ;
     rdfs:label "flagellomere 79"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1039,13 +1040,13 @@ obo:AISM_0000570 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000569 ] ,
+          owl:someValuesFrom obo:AISM_0000606 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000569 ] .
+          owl:someValuesFrom obo:AISM_0000606 ] .
 
 ### flagellomere 80
-obo:AISM_0000571 a owl:Class ;
+obo:AISM_0000608 a owl:Class ;
     rdfs:label "flagellomere 80"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1054,13 +1055,13 @@ obo:AISM_0000571 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000570 ] ,
+          owl:someValuesFrom obo:AISM_0000607 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000570 ] .
+          owl:someValuesFrom obo:AISM_0000607 ] .
 
 ### flagellomere 81
-obo:AISM_0000572 a owl:Class ;
+obo:AISM_0000609 a owl:Class ;
     rdfs:label "flagellomere 81"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1069,13 +1070,13 @@ obo:AISM_0000572 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000571 ] ,
+          owl:someValuesFrom obo:AISM_0000608 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000571 ] .
+          owl:someValuesFrom obo:AISM_0000608 ] .
 
 ### flagellomere 82
-obo:AISM_0000573 a owl:Class ;
+obo:AISM_0000610 a owl:Class ;
     rdfs:label "flagellomere 82"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1084,13 +1085,13 @@ obo:AISM_0000573 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000572 ] ,
+          owl:someValuesFrom obo:AISM_0000609 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000572 ] .
+          owl:someValuesFrom obo:AISM_0000609 ] .
 
 ### flagellomere 83
-obo:AISM_0000574 a owl:Class ;
+obo:AISM_0000611 a owl:Class ;
     rdfs:label "flagellomere 83"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1099,13 +1100,13 @@ obo:AISM_0000574 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000573 ] ,
+          owl:someValuesFrom obo:AISM_0000610 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000573 ] .
+          owl:someValuesFrom obo:AISM_0000610 ] .
 
 ### flagellomere 84
-obo:AISM_0000575 a owl:Class ;
+obo:AISM_0000612 a owl:Class ;
     rdfs:label "flagellomere 84"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1114,13 +1115,13 @@ obo:AISM_0000575 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000574 ] ,
+          owl:someValuesFrom obo:AISM_0000611 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000574 ] .
+          owl:someValuesFrom obo:AISM_0000611 ] .
 
 ### flagellomere 85
-obo:AISM_0000576 a owl:Class ;
+obo:AISM_0000613 a owl:Class ;
     rdfs:label "flagellomere 85"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1129,13 +1130,13 @@ obo:AISM_0000576 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000575 ] ,
+          owl:someValuesFrom obo:AISM_0000612 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000575 ] .
+          owl:someValuesFrom obo:AISM_0000612 ] .
 
 ### flagellomere 86
-obo:AISM_0000577 a owl:Class ;
+obo:AISM_0000614 a owl:Class ;
     rdfs:label "flagellomere 86"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1144,13 +1145,13 @@ obo:AISM_0000577 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000576 ] ,
+          owl:someValuesFrom obo:AISM_0000613 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000576 ] .
+          owl:someValuesFrom obo:AISM_0000613 ] .
 
 ### flagellomere 87
-obo:AISM_0000578 a owl:Class ;
+obo:AISM_0000615 a owl:Class ;
     rdfs:label "flagellomere 87"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1159,13 +1160,13 @@ obo:AISM_0000578 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000577 ] ,
+          owl:someValuesFrom obo:AISM_0000614 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000577 ] .
+          owl:someValuesFrom obo:AISM_0000614 ] .
 
 ### flagellomere 88
-obo:AISM_0000579 a owl:Class ;
+obo:AISM_0000616 a owl:Class ;
     rdfs:label "flagellomere 88"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1174,13 +1175,13 @@ obo:AISM_0000579 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000578 ] ,
+          owl:someValuesFrom obo:AISM_0000615 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000578 ] .
+          owl:someValuesFrom obo:AISM_0000615 ] .
 
 ### flagellomere 89
-obo:AISM_0000580 a owl:Class ;
+obo:AISM_0000617 a owl:Class ;
     rdfs:label "flagellomere 89"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1189,13 +1190,13 @@ obo:AISM_0000580 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000579 ] ,
+          owl:someValuesFrom obo:AISM_0000616 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000579 ] .
+          owl:someValuesFrom obo:AISM_0000616 ] .
 
 ### flagellomere 90
-obo:AISM_0000581 a owl:Class ;
+obo:AISM_0000618 a owl:Class ;
     rdfs:label "flagellomere 90"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1204,13 +1205,13 @@ obo:AISM_0000581 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000580 ] ,
+          owl:someValuesFrom obo:AISM_0000617 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000580 ] .
+          owl:someValuesFrom obo:AISM_0000617 ] .
 
 ### flagellomere 91
-obo:AISM_0000582 a owl:Class ;
+obo:AISM_0000619 a owl:Class ;
     rdfs:label "flagellomere 91"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1219,13 +1220,13 @@ obo:AISM_0000582 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000581 ] ,
+          owl:someValuesFrom obo:AISM_0000618 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000581 ] .
+          owl:someValuesFrom obo:AISM_0000618 ] .
 
 ### flagellomere 92
-obo:AISM_0000583 a owl:Class ;
+obo:AISM_0000620 a owl:Class ;
     rdfs:label "flagellomere 92"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1234,13 +1235,13 @@ obo:AISM_0000583 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000582 ] ,
+          owl:someValuesFrom obo:AISM_0000619 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000582 ] .
+          owl:someValuesFrom obo:AISM_0000619 ] .
 
 ### flagellomere 93
-obo:AISM_0000584 a owl:Class ;
+obo:AISM_0000621 a owl:Class ;
     rdfs:label "flagellomere 93"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1249,13 +1250,13 @@ obo:AISM_0000584 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000583 ] ,
+          owl:someValuesFrom obo:AISM_0000620 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000583 ] .
+          owl:someValuesFrom obo:AISM_0000620 ] .
 
 ### flagellomere 94
-obo:AISM_0000585 a owl:Class ;
+obo:AISM_0000622 a owl:Class ;
     rdfs:label "flagellomere 94"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1264,13 +1265,13 @@ obo:AISM_0000585 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000584 ] ,
+          owl:someValuesFrom obo:AISM_0000621 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000584 ] .
+          owl:someValuesFrom obo:AISM_0000621 ] .
 
 ### flagellomere 95
-obo:AISM_0000586 a owl:Class ;
+obo:AISM_0000623 a owl:Class ;
     rdfs:label "flagellomere 95"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1279,13 +1280,13 @@ obo:AISM_0000586 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000585 ] ,
+          owl:someValuesFrom obo:AISM_0000622 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000585 ] .
+          owl:someValuesFrom obo:AISM_0000622 ] .
 
 ### flagellomere 96
-obo:AISM_0000587 a owl:Class ;
+obo:AISM_0000624 a owl:Class ;
     rdfs:label "flagellomere 96"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1294,13 +1295,13 @@ obo:AISM_0000587 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000586 ] ,
+          owl:someValuesFrom obo:AISM_0000623 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000586 ] .
+          owl:someValuesFrom obo:AISM_0000623 ] .
 
 ### flagellomere 97
-obo:AISM_0000588 a owl:Class ;
+obo:AISM_0000625 a owl:Class ;
     rdfs:label "flagellomere 97"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1309,13 +1310,13 @@ obo:AISM_0000588 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000587 ] ,
+          owl:someValuesFrom obo:AISM_0000624 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000587 ] .
+          owl:someValuesFrom obo:AISM_0000624 ] .
 
 ### flagellomere 98
-obo:AISM_0000589 a owl:Class ;
+obo:AISM_0000626 a owl:Class ;
     rdfs:label "flagellomere 98"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1324,13 +1325,13 @@ obo:AISM_0000589 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000588 ] ,
+          owl:someValuesFrom obo:AISM_0000625 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000588 ] .
+          owl:someValuesFrom obo:AISM_0000625 ] .
 
 ### flagellomere 99
-obo:AISM_0000590 a owl:Class ;
+obo:AISM_0000627 a owl:Class ;
     rdfs:label "flagellomere 99"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1339,13 +1340,13 @@ obo:AISM_0000590 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000589 ] ,
+          owl:someValuesFrom obo:AISM_0000626 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000589 ] .
+          owl:someValuesFrom obo:AISM_0000626 ] .
 
 ### flagellomere 100
-obo:AISM_0000591 a owl:Class ;
+obo:AISM_0000628 a owl:Class ;
     rdfs:label "flagellomere 100"@en ;
     dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
     oboInOwl:creation_date "2026-05-12" ;
@@ -1354,8 +1355,8 @@ obo:AISM_0000591 a owl:Class ;
     rdfs:subClassOf obo:AISM_0000116 ,
         [ a owl:Restriction ;
           owl:onProperty obo:BSPO_0000097 ;
-          owl:someValuesFrom obo:AISM_0000590 ] ,
+          owl:someValuesFrom obo:AISM_0000627 ] ,
         [ a owl:Restriction ;
           owl:onProperty obo:AISM_0000079 ;
-          owl:someValuesFrom obo:AISM_0000590 ] .
+          owl:someValuesFrom obo:AISM_0000627 ] .
 
