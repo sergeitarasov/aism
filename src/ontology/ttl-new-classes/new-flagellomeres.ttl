@@ -1,0 +1,1361 @@
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+
+<http://purl.obolibrary.org/obo/aism/new-flagellomeres.owl>
+    a owl:Ontology ;
+    rdfs:label "New AISM flagellomeres 11-100" .
+### flagellomere 11
+obo:AISM_0000502 a owl:Class ;
+    rdfs:label "flagellomere 11"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 11"@en ;
+    oboInOwl:hasExactSynonym "antennomere 13"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000342 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000342 ] .
+
+### flagellomere 12
+obo:AISM_0000503 a owl:Class ;
+    rdfs:label "flagellomere 12"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 12"@en ;
+    oboInOwl:hasExactSynonym "antennomere 14"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000502 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000502 ] .
+
+### flagellomere 13
+obo:AISM_0000504 a owl:Class ;
+    rdfs:label "flagellomere 13"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 13"@en ;
+    oboInOwl:hasExactSynonym "antennomere 15"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000503 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000503 ] .
+
+### flagellomere 14
+obo:AISM_0000505 a owl:Class ;
+    rdfs:label "flagellomere 14"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 14"@en ;
+    oboInOwl:hasExactSynonym "antennomere 16"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000504 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000504 ] .
+
+### flagellomere 15
+obo:AISM_0000506 a owl:Class ;
+    rdfs:label "flagellomere 15"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 15"@en ;
+    oboInOwl:hasExactSynonym "antennomere 17"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000505 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000505 ] .
+
+### flagellomere 16
+obo:AISM_0000507 a owl:Class ;
+    rdfs:label "flagellomere 16"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 16"@en ;
+    oboInOwl:hasExactSynonym "antennomere 18"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000506 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000506 ] .
+
+### flagellomere 17
+obo:AISM_0000508 a owl:Class ;
+    rdfs:label "flagellomere 17"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 17"@en ;
+    oboInOwl:hasExactSynonym "antennomere 19"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000507 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000507 ] .
+
+### flagellomere 18
+obo:AISM_0000509 a owl:Class ;
+    rdfs:label "flagellomere 18"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 18"@en ;
+    oboInOwl:hasExactSynonym "antennomere 20"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000508 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000508 ] .
+
+### flagellomere 19
+obo:AISM_0000510 a owl:Class ;
+    rdfs:label "flagellomere 19"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 19"@en ;
+    oboInOwl:hasExactSynonym "antennomere 21"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000509 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000509 ] .
+
+### flagellomere 20
+obo:AISM_0000511 a owl:Class ;
+    rdfs:label "flagellomere 20"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 20"@en ;
+    oboInOwl:hasExactSynonym "antennomere 22"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000510 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000510 ] .
+
+### flagellomere 21
+obo:AISM_0000512 a owl:Class ;
+    rdfs:label "flagellomere 21"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 21"@en ;
+    oboInOwl:hasExactSynonym "antennomere 23"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000511 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000511 ] .
+
+### flagellomere 22
+obo:AISM_0000513 a owl:Class ;
+    rdfs:label "flagellomere 22"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 22"@en ;
+    oboInOwl:hasExactSynonym "antennomere 24"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000512 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000512 ] .
+
+### flagellomere 23
+obo:AISM_0000514 a owl:Class ;
+    rdfs:label "flagellomere 23"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 23"@en ;
+    oboInOwl:hasExactSynonym "antennomere 25"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000513 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000513 ] .
+
+### flagellomere 24
+obo:AISM_0000515 a owl:Class ;
+    rdfs:label "flagellomere 24"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 24"@en ;
+    oboInOwl:hasExactSynonym "antennomere 26"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000514 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000514 ] .
+
+### flagellomere 25
+obo:AISM_0000516 a owl:Class ;
+    rdfs:label "flagellomere 25"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 25"@en ;
+    oboInOwl:hasExactSynonym "antennomere 27"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000515 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000515 ] .
+
+### flagellomere 26
+obo:AISM_0000517 a owl:Class ;
+    rdfs:label "flagellomere 26"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 26"@en ;
+    oboInOwl:hasExactSynonym "antennomere 28"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000516 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000516 ] .
+
+### flagellomere 27
+obo:AISM_0000518 a owl:Class ;
+    rdfs:label "flagellomere 27"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 27"@en ;
+    oboInOwl:hasExactSynonym "antennomere 29"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000517 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000517 ] .
+
+### flagellomere 28
+obo:AISM_0000519 a owl:Class ;
+    rdfs:label "flagellomere 28"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 28"@en ;
+    oboInOwl:hasExactSynonym "antennomere 30"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000518 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000518 ] .
+
+### flagellomere 29
+obo:AISM_0000520 a owl:Class ;
+    rdfs:label "flagellomere 29"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 29"@en ;
+    oboInOwl:hasExactSynonym "antennomere 31"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000519 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000519 ] .
+
+### flagellomere 30
+obo:AISM_0000521 a owl:Class ;
+    rdfs:label "flagellomere 30"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 30"@en ;
+    oboInOwl:hasExactSynonym "antennomere 32"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000520 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000520 ] .
+
+### flagellomere 31
+obo:AISM_0000522 a owl:Class ;
+    rdfs:label "flagellomere 31"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 31"@en ;
+    oboInOwl:hasExactSynonym "antennomere 33"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000521 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000521 ] .
+
+### flagellomere 32
+obo:AISM_0000523 a owl:Class ;
+    rdfs:label "flagellomere 32"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 32"@en ;
+    oboInOwl:hasExactSynonym "antennomere 34"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000522 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000522 ] .
+
+### flagellomere 33
+obo:AISM_0000524 a owl:Class ;
+    rdfs:label "flagellomere 33"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 33"@en ;
+    oboInOwl:hasExactSynonym "antennomere 35"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000523 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000523 ] .
+
+### flagellomere 34
+obo:AISM_0000525 a owl:Class ;
+    rdfs:label "flagellomere 34"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 34"@en ;
+    oboInOwl:hasExactSynonym "antennomere 36"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000524 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000524 ] .
+
+### flagellomere 35
+obo:AISM_0000526 a owl:Class ;
+    rdfs:label "flagellomere 35"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 35"@en ;
+    oboInOwl:hasExactSynonym "antennomere 37"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000525 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000525 ] .
+
+### flagellomere 36
+obo:AISM_0000527 a owl:Class ;
+    rdfs:label "flagellomere 36"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 36"@en ;
+    oboInOwl:hasExactSynonym "antennomere 38"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000526 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000526 ] .
+
+### flagellomere 37
+obo:AISM_0000528 a owl:Class ;
+    rdfs:label "flagellomere 37"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 37"@en ;
+    oboInOwl:hasExactSynonym "antennomere 39"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000527 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000527 ] .
+
+### flagellomere 38
+obo:AISM_0000529 a owl:Class ;
+    rdfs:label "flagellomere 38"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 38"@en ;
+    oboInOwl:hasExactSynonym "antennomere 40"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000528 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000528 ] .
+
+### flagellomere 39
+obo:AISM_0000530 a owl:Class ;
+    rdfs:label "flagellomere 39"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 39"@en ;
+    oboInOwl:hasExactSynonym "antennomere 41"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000529 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000529 ] .
+
+### flagellomere 40
+obo:AISM_0000531 a owl:Class ;
+    rdfs:label "flagellomere 40"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 40"@en ;
+    oboInOwl:hasExactSynonym "antennomere 42"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000530 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000530 ] .
+
+### flagellomere 41
+obo:AISM_0000532 a owl:Class ;
+    rdfs:label "flagellomere 41"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 41"@en ;
+    oboInOwl:hasExactSynonym "antennomere 43"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000531 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000531 ] .
+
+### flagellomere 42
+obo:AISM_0000533 a owl:Class ;
+    rdfs:label "flagellomere 42"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 42"@en ;
+    oboInOwl:hasExactSynonym "antennomere 44"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000532 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000532 ] .
+
+### flagellomere 43
+obo:AISM_0000534 a owl:Class ;
+    rdfs:label "flagellomere 43"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 43"@en ;
+    oboInOwl:hasExactSynonym "antennomere 45"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000533 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000533 ] .
+
+### flagellomere 44
+obo:AISM_0000535 a owl:Class ;
+    rdfs:label "flagellomere 44"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 44"@en ;
+    oboInOwl:hasExactSynonym "antennomere 46"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000534 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000534 ] .
+
+### flagellomere 45
+obo:AISM_0000536 a owl:Class ;
+    rdfs:label "flagellomere 45"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 45"@en ;
+    oboInOwl:hasExactSynonym "antennomere 47"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000535 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000535 ] .
+
+### flagellomere 46
+obo:AISM_0000537 a owl:Class ;
+    rdfs:label "flagellomere 46"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 46"@en ;
+    oboInOwl:hasExactSynonym "antennomere 48"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000536 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000536 ] .
+
+### flagellomere 47
+obo:AISM_0000538 a owl:Class ;
+    rdfs:label "flagellomere 47"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 47"@en ;
+    oboInOwl:hasExactSynonym "antennomere 49"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000537 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000537 ] .
+
+### flagellomere 48
+obo:AISM_0000539 a owl:Class ;
+    rdfs:label "flagellomere 48"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 48"@en ;
+    oboInOwl:hasExactSynonym "antennomere 50"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000538 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000538 ] .
+
+### flagellomere 49
+obo:AISM_0000540 a owl:Class ;
+    rdfs:label "flagellomere 49"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 49"@en ;
+    oboInOwl:hasExactSynonym "antennomere 51"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000539 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000539 ] .
+
+### flagellomere 50
+obo:AISM_0000541 a owl:Class ;
+    rdfs:label "flagellomere 50"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 50"@en ;
+    oboInOwl:hasExactSynonym "antennomere 52"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000540 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000540 ] .
+
+### flagellomere 51
+obo:AISM_0000542 a owl:Class ;
+    rdfs:label "flagellomere 51"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 51"@en ;
+    oboInOwl:hasExactSynonym "antennomere 53"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000541 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000541 ] .
+
+### flagellomere 52
+obo:AISM_0000543 a owl:Class ;
+    rdfs:label "flagellomere 52"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 52"@en ;
+    oboInOwl:hasExactSynonym "antennomere 54"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000542 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000542 ] .
+
+### flagellomere 53
+obo:AISM_0000544 a owl:Class ;
+    rdfs:label "flagellomere 53"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 53"@en ;
+    oboInOwl:hasExactSynonym "antennomere 55"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000543 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000543 ] .
+
+### flagellomere 54
+obo:AISM_0000545 a owl:Class ;
+    rdfs:label "flagellomere 54"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 54"@en ;
+    oboInOwl:hasExactSynonym "antennomere 56"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000544 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000544 ] .
+
+### flagellomere 55
+obo:AISM_0000546 a owl:Class ;
+    rdfs:label "flagellomere 55"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 55"@en ;
+    oboInOwl:hasExactSynonym "antennomere 57"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000545 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000545 ] .
+
+### flagellomere 56
+obo:AISM_0000547 a owl:Class ;
+    rdfs:label "flagellomere 56"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 56"@en ;
+    oboInOwl:hasExactSynonym "antennomere 58"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000546 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000546 ] .
+
+### flagellomere 57
+obo:AISM_0000548 a owl:Class ;
+    rdfs:label "flagellomere 57"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 57"@en ;
+    oboInOwl:hasExactSynonym "antennomere 59"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000547 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000547 ] .
+
+### flagellomere 58
+obo:AISM_0000549 a owl:Class ;
+    rdfs:label "flagellomere 58"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 58"@en ;
+    oboInOwl:hasExactSynonym "antennomere 60"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000548 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000548 ] .
+
+### flagellomere 59
+obo:AISM_0000550 a owl:Class ;
+    rdfs:label "flagellomere 59"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 59"@en ;
+    oboInOwl:hasExactSynonym "antennomere 61"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000549 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000549 ] .
+
+### flagellomere 60
+obo:AISM_0000551 a owl:Class ;
+    rdfs:label "flagellomere 60"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 60"@en ;
+    oboInOwl:hasExactSynonym "antennomere 62"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000550 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000550 ] .
+
+### flagellomere 61
+obo:AISM_0000552 a owl:Class ;
+    rdfs:label "flagellomere 61"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 61"@en ;
+    oboInOwl:hasExactSynonym "antennomere 63"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000551 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000551 ] .
+
+### flagellomere 62
+obo:AISM_0000553 a owl:Class ;
+    rdfs:label "flagellomere 62"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 62"@en ;
+    oboInOwl:hasExactSynonym "antennomere 64"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000552 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000552 ] .
+
+### flagellomere 63
+obo:AISM_0000554 a owl:Class ;
+    rdfs:label "flagellomere 63"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 63"@en ;
+    oboInOwl:hasExactSynonym "antennomere 65"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000553 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000553 ] .
+
+### flagellomere 64
+obo:AISM_0000555 a owl:Class ;
+    rdfs:label "flagellomere 64"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 64"@en ;
+    oboInOwl:hasExactSynonym "antennomere 66"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000554 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000554 ] .
+
+### flagellomere 65
+obo:AISM_0000556 a owl:Class ;
+    rdfs:label "flagellomere 65"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 65"@en ;
+    oboInOwl:hasExactSynonym "antennomere 67"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000555 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000555 ] .
+
+### flagellomere 66
+obo:AISM_0000557 a owl:Class ;
+    rdfs:label "flagellomere 66"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 66"@en ;
+    oboInOwl:hasExactSynonym "antennomere 68"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000556 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000556 ] .
+
+### flagellomere 67
+obo:AISM_0000558 a owl:Class ;
+    rdfs:label "flagellomere 67"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 67"@en ;
+    oboInOwl:hasExactSynonym "antennomere 69"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000557 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000557 ] .
+
+### flagellomere 68
+obo:AISM_0000559 a owl:Class ;
+    rdfs:label "flagellomere 68"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 68"@en ;
+    oboInOwl:hasExactSynonym "antennomere 70"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000558 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000558 ] .
+
+### flagellomere 69
+obo:AISM_0000560 a owl:Class ;
+    rdfs:label "flagellomere 69"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 69"@en ;
+    oboInOwl:hasExactSynonym "antennomere 71"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000559 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000559 ] .
+
+### flagellomere 70
+obo:AISM_0000561 a owl:Class ;
+    rdfs:label "flagellomere 70"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 70"@en ;
+    oboInOwl:hasExactSynonym "antennomere 72"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000560 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000560 ] .
+
+### flagellomere 71
+obo:AISM_0000562 a owl:Class ;
+    rdfs:label "flagellomere 71"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 71"@en ;
+    oboInOwl:hasExactSynonym "antennomere 73"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000561 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000561 ] .
+
+### flagellomere 72
+obo:AISM_0000563 a owl:Class ;
+    rdfs:label "flagellomere 72"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 72"@en ;
+    oboInOwl:hasExactSynonym "antennomere 74"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000562 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000562 ] .
+
+### flagellomere 73
+obo:AISM_0000564 a owl:Class ;
+    rdfs:label "flagellomere 73"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 73"@en ;
+    oboInOwl:hasExactSynonym "antennomere 75"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000563 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000563 ] .
+
+### flagellomere 74
+obo:AISM_0000565 a owl:Class ;
+    rdfs:label "flagellomere 74"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 74"@en ;
+    oboInOwl:hasExactSynonym "antennomere 76"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000564 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000564 ] .
+
+### flagellomere 75
+obo:AISM_0000566 a owl:Class ;
+    rdfs:label "flagellomere 75"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 75"@en ;
+    oboInOwl:hasExactSynonym "antennomere 77"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000565 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000565 ] .
+
+### flagellomere 76
+obo:AISM_0000567 a owl:Class ;
+    rdfs:label "flagellomere 76"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 76"@en ;
+    oboInOwl:hasExactSynonym "antennomere 78"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000566 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000566 ] .
+
+### flagellomere 77
+obo:AISM_0000568 a owl:Class ;
+    rdfs:label "flagellomere 77"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 77"@en ;
+    oboInOwl:hasExactSynonym "antennomere 79"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000567 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000567 ] .
+
+### flagellomere 78
+obo:AISM_0000569 a owl:Class ;
+    rdfs:label "flagellomere 78"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 78"@en ;
+    oboInOwl:hasExactSynonym "antennomere 80"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000568 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000568 ] .
+
+### flagellomere 79
+obo:AISM_0000570 a owl:Class ;
+    rdfs:label "flagellomere 79"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 79"@en ;
+    oboInOwl:hasExactSynonym "antennomere 81"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000569 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000569 ] .
+
+### flagellomere 80
+obo:AISM_0000571 a owl:Class ;
+    rdfs:label "flagellomere 80"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 80"@en ;
+    oboInOwl:hasExactSynonym "antennomere 82"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000570 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000570 ] .
+
+### flagellomere 81
+obo:AISM_0000572 a owl:Class ;
+    rdfs:label "flagellomere 81"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 81"@en ;
+    oboInOwl:hasExactSynonym "antennomere 83"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000571 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000571 ] .
+
+### flagellomere 82
+obo:AISM_0000573 a owl:Class ;
+    rdfs:label "flagellomere 82"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 82"@en ;
+    oboInOwl:hasExactSynonym "antennomere 84"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000572 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000572 ] .
+
+### flagellomere 83
+obo:AISM_0000574 a owl:Class ;
+    rdfs:label "flagellomere 83"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 83"@en ;
+    oboInOwl:hasExactSynonym "antennomere 85"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000573 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000573 ] .
+
+### flagellomere 84
+obo:AISM_0000575 a owl:Class ;
+    rdfs:label "flagellomere 84"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 84"@en ;
+    oboInOwl:hasExactSynonym "antennomere 86"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000574 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000574 ] .
+
+### flagellomere 85
+obo:AISM_0000576 a owl:Class ;
+    rdfs:label "flagellomere 85"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 85"@en ;
+    oboInOwl:hasExactSynonym "antennomere 87"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000575 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000575 ] .
+
+### flagellomere 86
+obo:AISM_0000577 a owl:Class ;
+    rdfs:label "flagellomere 86"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 86"@en ;
+    oboInOwl:hasExactSynonym "antennomere 88"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000576 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000576 ] .
+
+### flagellomere 87
+obo:AISM_0000578 a owl:Class ;
+    rdfs:label "flagellomere 87"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 87"@en ;
+    oboInOwl:hasExactSynonym "antennomere 89"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000577 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000577 ] .
+
+### flagellomere 88
+obo:AISM_0000579 a owl:Class ;
+    rdfs:label "flagellomere 88"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 88"@en ;
+    oboInOwl:hasExactSynonym "antennomere 90"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000578 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000578 ] .
+
+### flagellomere 89
+obo:AISM_0000580 a owl:Class ;
+    rdfs:label "flagellomere 89"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 89"@en ;
+    oboInOwl:hasExactSynonym "antennomere 91"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000579 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000579 ] .
+
+### flagellomere 90
+obo:AISM_0000581 a owl:Class ;
+    rdfs:label "flagellomere 90"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 90"@en ;
+    oboInOwl:hasExactSynonym "antennomere 92"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000580 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000580 ] .
+
+### flagellomere 91
+obo:AISM_0000582 a owl:Class ;
+    rdfs:label "flagellomere 91"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 91"@en ;
+    oboInOwl:hasExactSynonym "antennomere 93"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000581 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000581 ] .
+
+### flagellomere 92
+obo:AISM_0000583 a owl:Class ;
+    rdfs:label "flagellomere 92"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 92"@en ;
+    oboInOwl:hasExactSynonym "antennomere 94"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000582 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000582 ] .
+
+### flagellomere 93
+obo:AISM_0000584 a owl:Class ;
+    rdfs:label "flagellomere 93"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 93"@en ;
+    oboInOwl:hasExactSynonym "antennomere 95"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000583 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000583 ] .
+
+### flagellomere 94
+obo:AISM_0000585 a owl:Class ;
+    rdfs:label "flagellomere 94"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 94"@en ;
+    oboInOwl:hasExactSynonym "antennomere 96"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000584 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000584 ] .
+
+### flagellomere 95
+obo:AISM_0000586 a owl:Class ;
+    rdfs:label "flagellomere 95"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 95"@en ;
+    oboInOwl:hasExactSynonym "antennomere 97"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000585 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000585 ] .
+
+### flagellomere 96
+obo:AISM_0000587 a owl:Class ;
+    rdfs:label "flagellomere 96"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 96"@en ;
+    oboInOwl:hasExactSynonym "antennomere 98"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000586 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000586 ] .
+
+### flagellomere 97
+obo:AISM_0000588 a owl:Class ;
+    rdfs:label "flagellomere 97"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 97"@en ;
+    oboInOwl:hasExactSynonym "antennomere 99"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000587 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000587 ] .
+
+### flagellomere 98
+obo:AISM_0000589 a owl:Class ;
+    rdfs:label "flagellomere 98"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 98"@en ;
+    oboInOwl:hasExactSynonym "antennomere 100"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000588 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000588 ] .
+
+### flagellomere 99
+obo:AISM_0000590 a owl:Class ;
+    rdfs:label "flagellomere 99"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 99"@en ;
+    oboInOwl:hasExactSynonym "antennomere 101"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000589 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000589 ] .
+
+### flagellomere 100
+obo:AISM_0000591 a owl:Class ;
+    rdfs:label "flagellomere 100"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-12" ;
+    obo:IAO_0000115 "the cuticle of flagellomere 100"@en ;
+    oboInOwl:hasExactSynonym "antennomere 102"@en ;
+    rdfs:subClassOf obo:AISM_0000116 ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:BSPO_0000097 ;
+          owl:someValuesFrom obo:AISM_0000590 ] ,
+        [ a owl:Restriction ;
+          owl:onProperty obo:AISM_0000079 ;
+          owl:someValuesFrom obo:AISM_0000590 ] .
+
