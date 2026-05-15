@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/aism/angular.owl" uri="ttl-new-classes/angular.ttl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/pato/releases/2025-05-14/pato.owl" uri="http://purl.obolibrary.org/obo/pato.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/aism/new-flagellomeres.owl" uri="ttl-new-classes/new-flagellomeres.ttl"/>
     <group id="odk-managed-catalog" prefer="public">
         <uri name="http://purl.obolibrary.org/obo/aism/imports/ro_import.owl" uri="imports/ro_import.owl"/>

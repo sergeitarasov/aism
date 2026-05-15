@@ -1,0 +1,66 @@
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix pato: <http://purl.obolibrary.org/obo/pato#> .
+
+<http://purl.obolibrary.org/obo/aism/angular.owl>
+    a owl:Ontology ;
+    rdfs:label "New AISM angular shape quality subclasses" .
+
+### obtusely angular
+obo:AISM_0000629 a owl:Class ;
+    rdfs:label "obtusely angular"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-15" ;
+    oboInOwl:inSubset pato:value_slim ;
+    obo:IAO_0000115 "An angular shape quality inhering in a bearer by virtue of the bearer having a single angle greater than 90 degrees and less than 180 degrees."@en ;
+    rdfs:subClassOf obo:PATO_0001977 .
+
+### acutely angular
+obo:AISM_0000630 a owl:Class ;
+    rdfs:label "acutely angular"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-15" ;
+    oboInOwl:inSubset pato:value_slim ;
+    obo:IAO_0000115 "An angular shape quality inhering in a bearer by virtue of the bearer having a single angle less than 90 degrees."@en ;
+    rdfs:subClassOf obo:PATO_0001977 .
+
+### right-angled
+obo:AISM_0000631 a owl:Class ;
+    rdfs:label "right-angled"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-15" ;
+    oboInOwl:inSubset pato:value_slim ;
+    obo:IAO_0000115 "An angular shape quality inhering in a bearer by virtue of the bearer having a single angle approximately equal to 90 degrees."@en ;
+    rdfs:subClassOf obo:PATO_0001977 .
+
+### obtusely notched
+obo:AISM_0000632 a owl:Class ;
+    rdfs:label "obtusely notched"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-15" ;
+    oboInOwl:inSubset pato:value_slim ;
+    obo:IAO_0000115 "A concave shape quality inhering in a bearer by virtue of the bearer's shape having a notch with an internal angle greater than 90 degrees and less than 180 degrees."@en ;
+    rdfs:subClassOf obo:PATO_0001495 .
+
+### acutely notched
+obo:AISM_0000633 a owl:Class ;
+    rdfs:label "acutely notched"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-15" ;
+    oboInOwl:inSubset pato:value_slim ;
+    obo:IAO_0000115 "A concave shape quality inhering in a bearer by virtue of the bearer's shape having a notch with an internal angle less than 90 degrees (V-shaped)."@en ;
+    rdfs:subClassOf obo:PATO_0001495 .
+
+### right-angled notched
+obo:AISM_0000634 a owl:Class ;
+    rdfs:label "right-angled notched"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-15" ;
+    oboInOwl:inSubset pato:value_slim ;
+    obo:IAO_0000115 "A concave shape quality inhering in a bearer by virtue of the bearer's shape having a notch with an internal angle approximately equal to 90 degrees."@en ;
+    rdfs:subClassOf obo:PATO_0001495 .
