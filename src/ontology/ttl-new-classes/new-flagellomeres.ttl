@@ -8,7 +8,7 @@
 
 <http://purl.obolibrary.org/obo/aism/new-flagellomeres.owl>
     a owl:Ontology ;
-    owl:imports <http://purl.obolibrary.org/obo/aism.owl> ;
+    # owl:imports <http://purl.obolibrary.org/obo/aism.owl> ;
     rdfs:label "New AISM flagellomeres 11-100" .
 ### flagellomere 11
 obo:AISM_0000539 a owl:Class ;
