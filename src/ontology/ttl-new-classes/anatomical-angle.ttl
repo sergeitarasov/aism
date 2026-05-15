@@ -1,0 +1,23 @@
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+
+<http://purl.obolibrary.org/obo/aism/anatomical-angle.owl>
+    a owl:Ontology ;
+    rdfs:label "New AISM anatomical angle class" .
+
+### anatomical angle
+obo:AISM_0000658 a owl:Class ;
+    rdfs:label "anatomical angle"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "An angular shape quality inhering in an anatomical entity by virtue of its margin forming an angle."@en ;
+    rdfs:subClassOf obo:PATO_0001977 ;
+    rdfs:subClassOf
+        [ a owl:Restriction ;
+          owl:onProperty obo:BFO_0000050 ;
+          owl:someValuesFrom obo:BSPO_0000006 ] .

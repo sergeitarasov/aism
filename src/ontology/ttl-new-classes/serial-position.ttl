@@ -1,0 +1,205 @@
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+
+<http://purl.obolibrary.org/obo/aism/serial-position.owl>
+    a owl:Ontology ;
+    rdfs:label "New AISM serial position quality subclasses" .
+
+### serial position notation (AnnotationProperty)
+obo:AISM_0000637 a owl:AnnotationProperty ;
+    rdfs:label "serial position notation"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" .
+
+### serial position quality
+obo:AISM_0000636 a owl:Class ;
+    rdfs:label "serial position quality"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity's position within a repeated series of similar entities."@en ;
+    rdfs:subClassOf obo:PATO_0000001 .
+
+### serial position id 1
+obo:AISM_0000638 a owl:Class ;
+    rdfs:label "serial position id 1"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 1st position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "1"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 2
+obo:AISM_0000639 a owl:Class ;
+    rdfs:label "serial position id 2"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 2nd position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "2"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 3
+obo:AISM_0000640 a owl:Class ;
+    rdfs:label "serial position id 3"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 3rd position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "3"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 4
+obo:AISM_0000641 a owl:Class ;
+    rdfs:label "serial position id 4"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 4th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "4"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 5
+obo:AISM_0000642 a owl:Class ;
+    rdfs:label "serial position id 5"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 5th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "5"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 6
+obo:AISM_0000643 a owl:Class ;
+    rdfs:label "serial position id 6"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 6th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "6"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 7
+obo:AISM_0000644 a owl:Class ;
+    rdfs:label "serial position id 7"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 7th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "7"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 8
+obo:AISM_0000645 a owl:Class ;
+    rdfs:label "serial position id 8"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 8th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "8"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 9
+obo:AISM_0000646 a owl:Class ;
+    rdfs:label "serial position id 9"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 9th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "9"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 10
+obo:AISM_0000647 a owl:Class ;
+    rdfs:label "serial position id 10"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 10th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "10"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 11
+obo:AISM_0000648 a owl:Class ;
+    rdfs:label "serial position id 11"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 11th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "11"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 12
+obo:AISM_0000649 a owl:Class ;
+    rdfs:label "serial position id 12"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 12th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "12"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 13
+obo:AISM_0000650 a owl:Class ;
+    rdfs:label "serial position id 13"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 13th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "13"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 14
+obo:AISM_0000651 a owl:Class ;
+    rdfs:label "serial position id 14"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 14th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "14"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 15
+obo:AISM_0000652 a owl:Class ;
+    rdfs:label "serial position id 15"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 15th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "15"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 16
+obo:AISM_0000653 a owl:Class ;
+    rdfs:label "serial position id 16"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 16th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "16"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 17
+obo:AISM_0000654 a owl:Class ;
+    rdfs:label "serial position id 17"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 17th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "17"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 18
+obo:AISM_0000655 a owl:Class ;
+    rdfs:label "serial position id 18"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 18th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "18"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 19
+obo:AISM_0000656 a owl:Class ;
+    rdfs:label "serial position id 19"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 19th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "19"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .
+
+### serial position id 20
+obo:AISM_0000657 a owl:Class ;
+    rdfs:label "serial position id 20"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-16" ;
+    obo:IAO_0000115 "A relational quality inhering in an entity by virtue of the entity occupying the 20th position within a repeated series of similar entities."@en ;
+    obo:AISM_0000637 "20"^^xsd:integer ;
+    rdfs:subClassOf obo:AISM_0000636 .

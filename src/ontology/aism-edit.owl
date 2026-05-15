@@ -57,8 +57,9 @@ Annotation(x_1.1:description "The ontology for the Anatomy of the Insect Skeleto
 Annotation(x_1.1:title "Ontology for the Anatomy of the Insect SkeletoMuscular system"@en)
 Annotation(term:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(rdfs:label "New AISM angular shape quality subclasses")
-Annotation(rdfs:label "New AISM flagellomeres 11-100")
 Annotation(rdfs:label "New AISM component quality subclasses")
+Annotation(rdfs:label "New AISM flagellomeres 11-100")
+Annotation(rdfs:label "New AISM serial position quality subclasses")
 
 Declaration(Class(obo:AISM_0000000))
 Declaration(Class(obo:AISM_0000001))
@@ -496,6 +497,27 @@ Declaration(Class(obo:AISM_0000632))
 Declaration(Class(obo:AISM_0000633))
 Declaration(Class(obo:AISM_0000634))
 Declaration(Class(obo:AISM_0000635))
+Declaration(Class(obo:AISM_0000636))
+Declaration(Class(obo:AISM_0000638))
+Declaration(Class(obo:AISM_0000639))
+Declaration(Class(obo:AISM_0000640))
+Declaration(Class(obo:AISM_0000641))
+Declaration(Class(obo:AISM_0000642))
+Declaration(Class(obo:AISM_0000643))
+Declaration(Class(obo:AISM_0000644))
+Declaration(Class(obo:AISM_0000645))
+Declaration(Class(obo:AISM_0000646))
+Declaration(Class(obo:AISM_0000647))
+Declaration(Class(obo:AISM_0000648))
+Declaration(Class(obo:AISM_0000649))
+Declaration(Class(obo:AISM_0000650))
+Declaration(Class(obo:AISM_0000651))
+Declaration(Class(obo:AISM_0000652))
+Declaration(Class(obo:AISM_0000653))
+Declaration(Class(obo:AISM_0000654))
+Declaration(Class(obo:AISM_0000655))
+Declaration(Class(obo:AISM_0000656))
+Declaration(Class(obo:AISM_0000657))
 Declaration(Class(obo:AISM_0002002))
 Declaration(Class(obo:AISM_0002003))
 Declaration(Class(obo:AISM_0002004))
@@ -1058,6 +1080,7 @@ Declaration(DataProperty(obo:AISM_0000401))
 Declaration(DataProperty(obo:AISM_0000402))
 Declaration(DataProperty(obo:AISM_0000403))
 Declaration(AnnotationProperty(obo:AISM_0000171))
+Declaration(AnnotationProperty(obo:AISM_0000637))
 Declaration(AnnotationProperty(obo:IAO_0000118))
 Declaration(AnnotationProperty(obo:IAO_0000700))
 Declaration(AnnotationProperty(x_1.1:creator))
@@ -1085,6 +1108,12 @@ https://doi.org/10.1371/journal.pone.0015991.g004
 This annotation property is on the label of a class in owl."@en)
 AnnotationAssertion(rdfs:label obo:AISM_0000171 "sensu"@en)
 SubAnnotationPropertyOf(obo:AISM_0000171 oboI:SubsetProperty)
+
+# Annotation Property: obo:AISM_0000637 (serial position notation)
+
+AnnotationAssertion(x_1.1:creator obo:AISM_0000637 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000637 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000637 "serial position notation"@en)
 
 # Annotation Property: obo:IAO_0000115 (definition)
 
@@ -5687,6 +5716,194 @@ AnnotationAssertion(oboI:creation_date obo:AISM_0000635 "2026-05-15")
 AnnotationAssertion(oboI:inSubset obo:AISM_0000635 pato:value_slim)
 AnnotationAssertion(rdfs:label obo:AISM_0000635 "component density"@en)
 SubClassOf(obo:AISM_0000635 obo:PATO_0103000)
+
+# Class: obo:AISM_0000636 (serial position quality)
+
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000636 "A relational quality inhering in an entity by virtue of the entity's position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000636 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000636 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000636 "serial position quality"@en)
+SubClassOf(obo:AISM_0000636 obo:PATO_0000001)
+
+# Class: obo:AISM_0000638 (serial position id 1)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000638 "1"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000638 "A relational quality inhering in an entity by virtue of the entity occupying the 1st position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000638 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000638 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000638 "serial position id 1"@en)
+SubClassOf(obo:AISM_0000638 obo:AISM_0000636)
+
+# Class: obo:AISM_0000639 (serial position id 2)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000639 "2"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000639 "A relational quality inhering in an entity by virtue of the entity occupying the 2nd position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000639 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000639 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000639 "serial position id 2"@en)
+SubClassOf(obo:AISM_0000639 obo:AISM_0000636)
+
+# Class: obo:AISM_0000640 (serial position id 3)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000640 "3"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000640 "A relational quality inhering in an entity by virtue of the entity occupying the 3rd position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000640 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000640 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000640 "serial position id 3"@en)
+SubClassOf(obo:AISM_0000640 obo:AISM_0000636)
+
+# Class: obo:AISM_0000641 (serial position id 4)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000641 "4"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000641 "A relational quality inhering in an entity by virtue of the entity occupying the 4th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000641 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000641 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000641 "serial position id 4"@en)
+SubClassOf(obo:AISM_0000641 obo:AISM_0000636)
+
+# Class: obo:AISM_0000642 (serial position id 5)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000642 "5"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000642 "A relational quality inhering in an entity by virtue of the entity occupying the 5th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000642 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000642 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000642 "serial position id 5"@en)
+SubClassOf(obo:AISM_0000642 obo:AISM_0000636)
+
+# Class: obo:AISM_0000643 (serial position id 6)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000643 "6"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000643 "A relational quality inhering in an entity by virtue of the entity occupying the 6th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000643 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000643 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000643 "serial position id 6"@en)
+SubClassOf(obo:AISM_0000643 obo:AISM_0000636)
+
+# Class: obo:AISM_0000644 (serial position id 7)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000644 "7"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000644 "A relational quality inhering in an entity by virtue of the entity occupying the 7th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000644 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000644 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000644 "serial position id 7"@en)
+SubClassOf(obo:AISM_0000644 obo:AISM_0000636)
+
+# Class: obo:AISM_0000645 (serial position id 8)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000645 "8"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000645 "A relational quality inhering in an entity by virtue of the entity occupying the 8th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000645 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000645 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000645 "serial position id 8"@en)
+SubClassOf(obo:AISM_0000645 obo:AISM_0000636)
+
+# Class: obo:AISM_0000646 (serial position id 9)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000646 "9"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000646 "A relational quality inhering in an entity by virtue of the entity occupying the 9th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000646 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000646 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000646 "serial position id 9"@en)
+SubClassOf(obo:AISM_0000646 obo:AISM_0000636)
+
+# Class: obo:AISM_0000647 (serial position id 10)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000647 "10"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000647 "A relational quality inhering in an entity by virtue of the entity occupying the 10th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000647 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000647 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000647 "serial position id 10"@en)
+SubClassOf(obo:AISM_0000647 obo:AISM_0000636)
+
+# Class: obo:AISM_0000648 (serial position id 11)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000648 "11"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000648 "A relational quality inhering in an entity by virtue of the entity occupying the 11th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000648 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000648 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000648 "serial position id 11"@en)
+SubClassOf(obo:AISM_0000648 obo:AISM_0000636)
+
+# Class: obo:AISM_0000649 (serial position id 12)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000649 "12"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000649 "A relational quality inhering in an entity by virtue of the entity occupying the 12th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000649 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000649 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000649 "serial position id 12"@en)
+SubClassOf(obo:AISM_0000649 obo:AISM_0000636)
+
+# Class: obo:AISM_0000650 (serial position id 13)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000650 "13"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000650 "A relational quality inhering in an entity by virtue of the entity occupying the 13th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000650 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000650 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000650 "serial position id 13"@en)
+SubClassOf(obo:AISM_0000650 obo:AISM_0000636)
+
+# Class: obo:AISM_0000651 (serial position id 14)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000651 "14"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000651 "A relational quality inhering in an entity by virtue of the entity occupying the 14th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000651 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000651 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000651 "serial position id 14"@en)
+SubClassOf(obo:AISM_0000651 obo:AISM_0000636)
+
+# Class: obo:AISM_0000652 (serial position id 15)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000652 "15"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000652 "A relational quality inhering in an entity by virtue of the entity occupying the 15th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000652 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000652 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000652 "serial position id 15"@en)
+SubClassOf(obo:AISM_0000652 obo:AISM_0000636)
+
+# Class: obo:AISM_0000653 (serial position id 16)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000653 "16"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000653 "A relational quality inhering in an entity by virtue of the entity occupying the 16th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000653 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000653 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000653 "serial position id 16"@en)
+SubClassOf(obo:AISM_0000653 obo:AISM_0000636)
+
+# Class: obo:AISM_0000654 (serial position id 17)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000654 "17"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000654 "A relational quality inhering in an entity by virtue of the entity occupying the 17th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000654 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000654 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000654 "serial position id 17"@en)
+SubClassOf(obo:AISM_0000654 obo:AISM_0000636)
+
+# Class: obo:AISM_0000655 (serial position id 18)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000655 "18"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000655 "A relational quality inhering in an entity by virtue of the entity occupying the 18th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000655 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000655 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000655 "serial position id 18"@en)
+SubClassOf(obo:AISM_0000655 obo:AISM_0000636)
+
+# Class: obo:AISM_0000656 (serial position id 19)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000656 "19"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000656 "A relational quality inhering in an entity by virtue of the entity occupying the 19th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000656 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000656 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000656 "serial position id 19"@en)
+SubClassOf(obo:AISM_0000656 obo:AISM_0000636)
+
+# Class: obo:AISM_0000657 (serial position id 20)
+
+AnnotationAssertion(obo:AISM_0000637 obo:AISM_0000657 "20"^^xsd:integer)
+AnnotationAssertion(obo:IAO_0000115 obo:AISM_0000657 "A relational quality inhering in an entity by virtue of the entity occupying the 20th position within a repeated series of similar entities."@en)
+AnnotationAssertion(x_1.1:creator obo:AISM_0000657 "starasov https://orcid.org/0000-0001-5237-2330")
+AnnotationAssertion(oboI:creation_date obo:AISM_0000657 "2026-05-16")
+AnnotationAssertion(rdfs:label obo:AISM_0000657 "serial position id 20"@en)
+SubClassOf(obo:AISM_0000657 obo:AISM_0000636)
 
 # Class: obo:AISM_0002002 (anterior tentorio-scapal muscle)
 
