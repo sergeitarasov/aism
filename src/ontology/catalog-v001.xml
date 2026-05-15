@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/aism/anatomical-angle.owl" uri="ttl-new-classes/anatomical-angle.ttl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/aism/serial-position.owl" uri="ttl-new-classes/serial-position.ttl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/aism/component.owl" uri="ttl-new-classes/component.ttl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/aism/angular.owl" uri="ttl-new-classes/angular.ttl"/>
