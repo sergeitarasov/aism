@@ -1,0 +1,21 @@
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix pato: <http://purl.obolibrary.org/obo/pato#> .
+
+<http://purl.obolibrary.org/obo/aism/component.owl>
+    a owl:Ontology ;
+    rdfs:label "New AISM component quality subclasses" .
+
+### component concentration
+obo:AISM_0000635 a owl:Class ;
+    rdfs:label "component density"@en ;
+    dc:creator "starasov https://orcid.org/0000-0001-5237-2330" ;
+    oboInOwl:creation_date "2026-05-15" ;
+    oboInOwl:inSubset pato:value_slim ;
+    obo:IAO_0000115 "A quantitative quality inhering in a bearer by virtue of the number of component entities occurring within a given area or volume of the bearer."@en ;
+    rdfs:subClassOf obo:PATO_0103000 .
