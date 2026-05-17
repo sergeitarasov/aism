@@ -57,10 +57,10 @@ Annotation(x_1.1:contributor "Sergei Tarasov (starasov) https://orcid.org/0000-0
 Annotation(x_1.1:description "The ontology for the Anatomy of the Insect SkeletoMuscular system (AISM) contains terms used to describe the cuticle - as a single anatomical structure - and the skeletal muscle system, to be used in insect biodiversity research."@en)
 Annotation(x_1.1:title "Ontology for the Anatomy of the Insect SkeletoMuscular system"@en)
 Annotation(term:license <https://creativecommons.org/licenses/by/4.0/>)
+Annotation(rdfs:label "New AISM anatomical angle class")
 Annotation(rdfs:label "New AISM angular shape quality subclasses")
 Annotation(rdfs:label "New AISM component quality subclasses")
 Annotation(rdfs:label "New AISM flagellomeres 11-100")
-Annotation(rdfs:label "New AISM anatomical angle class")
 Annotation(rdfs:label "New AISM serial position quality subclasses")
 
 Declaration(Class(obo:AISM_0000000))
@@ -3787,7 +3787,6 @@ SubClassOf(Annotation(x_1.1:contributor "gmontanaro https://orcid.org/0000-0003-
 AnnotationAssertion(Annotation(x_1.1:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboI:creation_date "2023-05-05") obo:IAO_0000115 obo:AISM_0000352 "A structural quality inhering in a bearer by virtue of the bearer's having its surface covered with microscopic cuticular grooves forming a network."@en)
 AnnotationAssertion(Annotation(x_1.1:contributor "gmontanaro https://orcid.org/0000-0003-0836-1364") Annotation(oboI:creation_date "2023-05-05") rdfs:label obo:AISM_0000352 "microreticulate"@en)
 SubClassOf(Annotation(x_1.1:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboI:creation_date "2024-02-14") obo:AISM_0000352 obo:AISM_0000353)
-SubClassOf(Annotation(x_1.1:contributor "jgiron https://orcid.org/0000-0002-0851-6883") Annotation(oboI:creation_date "2024-02-14") obo:AISM_0000352 ObjectSomeValuesFrom(obo:BFO_0000051 obo:AISM_0000157))
 
 # Class: obo:AISM_0000353 (reticulate)
 
