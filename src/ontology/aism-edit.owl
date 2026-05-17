@@ -44,7 +44,6 @@ Import(<http://purl.obolibrary.org/obo/aism/imports/iao_import.owl>)
 Import(<http://purl.obolibrary.org/obo/aism/imports/pato_import.owl>)
 Import(<http://purl.obolibrary.org/obo/aism/imports/pr_import.owl>)
 Import(<http://purl.obolibrary.org/obo/aism/imports/ro_import.owl>)
-Import(<http://purl.obolibrary.org/obo/aism/imports/uberon_import.owl>)
 Import(<http://purl.obolibrary.org/obo/pato/releases/2025-05-14/pato.owl>)
 Annotation(obo:IAO_0000700 "http://purl.obolibrary.org/obo/AISM_0000174")
 Annotation(obo:IAO_0000700 "http://purl.obolibrary.org/obo/PATO_0000001")
@@ -10866,6 +10865,11 @@ AnnotationAssertion(rdfs:label obo:UBERON_0004175 "internal genitalia"@en)
 # Class: obo:UBERON_0014895 (somatic muscle, invertebrate)
 
 AnnotationAssertion(rdfs:label obo:UBERON_0014895 "somatic muscle"@en)
+
+# Class: obo:UBERON_0034926 (anatomical row)
+
+AnnotationAssertion(obo:IAO_0000115 obo:UBERON_0034926 "An anatomical collection that is arranged in a line.")
+AnnotationAssertion(rdfs:label obo:UBERON_0034926 "anatomical row")
 
 # Class: obo:UBERON_6006011 (insect pharate adult)
 
